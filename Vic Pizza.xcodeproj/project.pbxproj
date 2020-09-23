@@ -13,6 +13,9 @@
 		451D305C250CA512000EDF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451D305B250CA512000EDF16 /* Assets.xcassets */; };
 		451D305F250CA512000EDF16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451D305E250CA512000EDF16 /* Preview Assets.xcassets */; };
 		451D3062250CA512000EDF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451D3060250CA512000EDF16 /* LaunchScreen.storyboard */; };
+		4546FD91251ADA59003E3D0F /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD90251ADA59003E3D0F /* OrderListView.swift */; };
+		4546FD95251ADAB6003E3D0F /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD94251ADAB6003E3D0F /* MenuListView.swift */; };
+		4546FD98251ADBE4003E3D0F /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		451D305E250CA512000EDF16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		451D3061250CA512000EDF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451D3063250CA512000EDF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4546FD90251ADA59003E3D0F /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		4546FD94251ADAB6003E3D0F /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,10 @@
 		451D3054250CA510000EDF16 /* Vic Pizza */ = {
 			isa = PBXGroup;
 			children = (
+				4546FD8F251ADA35003E3D0F /* OrderView */,
+				4546FD8E251ADA20003E3D0F /* MenuView */,
+				4546FD8D251ADA17003E3D0F /* Model */,
+				4546FD8C251ADA09003E3D0F /* HistoryView */,
 				451D3055250CA510000EDF16 /* AppDelegate.swift */,
 				451D3057250CA510000EDF16 /* SceneDelegate.swift */,
 				451D3059250CA510000EDF16 /* ContentView.swift */,
@@ -63,6 +73,7 @@
 				451D3060250CA512000EDF16 /* LaunchScreen.storyboard */,
 				451D3063250CA512000EDF16 /* Info.plist */,
 				451D305D250CA512000EDF16 /* Preview Content */,
+				4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */,
 			);
 			path = "Vic Pizza";
 			sourceTree = "<group>";
@@ -73,6 +84,36 @@
 				451D305E250CA512000EDF16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4546FD8C251ADA09003E3D0F /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		4546FD8D251ADA17003E3D0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4546FD8E251ADA20003E3D0F /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				4546FD94251ADAB6003E3D0F /* MenuListView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		4546FD8F251ADA35003E3D0F /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				4546FD90251ADA59003E3D0F /* OrderListView.swift */,
+			);
+			path = OrderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				451D3056250CA510000EDF16 /* AppDelegate.swift in Sources */,
+				4546FD95251ADAB6003E3D0F /* MenuListView.swift in Sources */,
+				4546FD91251ADA59003E3D0F /* OrderListView.swift in Sources */,
+				4546FD98251ADBE4003E3D0F /* ContentHeaderView.swift in Sources */,
 				451D3058250CA510000EDF16 /* SceneDelegate.swift in Sources */,
 				451D305A250CA510000EDF16 /* ContentView.swift in Sources */,
 			);
