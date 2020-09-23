@@ -1,5 +1,5 @@
 //
-//  MenuListView.swift
+//  OrderRowView.swift
 //  Vic Pizza
 //
 //  Created by Sunimal Herath on 23/9/20.
@@ -8,19 +8,18 @@
 
 import SwiftUI
 
-struct MenuListView: View {
+struct OrderRowView: View {
     var body: some View {
-        VStack {
-            Text("Menu")
-            MenuRowView()
+        HStack{
+            Text("Your order item here")
+            Spacer()
+            Text("$ 00.00")
         }
     }
 }
 
-struct MenuListView_Previews: PreviewProvider {
+struct OrderRowView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuListView()
+        OrderRowView()
     }
 }
-
-

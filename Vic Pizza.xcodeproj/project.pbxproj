@@ -16,6 +16,9 @@
 		4546FD91251ADA59003E3D0F /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD90251ADA59003E3D0F /* OrderListView.swift */; };
 		4546FD95251ADAB6003E3D0F /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD94251ADAB6003E3D0F /* MenuListView.swift */; };
 		4546FD98251ADBE4003E3D0F /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */; };
+		4546FD9B251ADD22003E3D0F /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD9A251ADD22003E3D0F /* OrderRowView.swift */; };
+		4546FD9F251ADDFF003E3D0F /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD9E251ADDFF003E3D0F /* MenuRowView.swift */; };
+		4546FDA3251ADE4F003E3D0F /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FDA2251ADE4F003E3D0F /* RatingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		4546FD90251ADA59003E3D0F /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		4546FD94251ADAB6003E3D0F /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
+		4546FD9A251ADD22003E3D0F /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		4546FD9E251ADDFF003E3D0F /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		4546FDA2251ADE4F003E3D0F /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +68,18 @@
 		451D3054250CA510000EDF16 /* Vic Pizza */ = {
 			isa = PBXGroup;
 			children = (
+				4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */,
+				451D3059250CA510000EDF16 /* ContentView.swift */,
 				4546FD8F251ADA35003E3D0F /* OrderView */,
 				4546FD8E251ADA20003E3D0F /* MenuView */,
 				4546FD8D251ADA17003E3D0F /* Model */,
 				4546FD8C251ADA09003E3D0F /* HistoryView */,
 				451D3055250CA510000EDF16 /* AppDelegate.swift */,
 				451D3057250CA510000EDF16 /* SceneDelegate.swift */,
-				451D3059250CA510000EDF16 /* ContentView.swift */,
 				451D305B250CA512000EDF16 /* Assets.xcassets */,
 				451D3060250CA512000EDF16 /* LaunchScreen.storyboard */,
 				451D3063250CA512000EDF16 /* Info.plist */,
 				451D305D250CA512000EDF16 /* Preview Content */,
-				4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */,
 			);
 			path = "Vic Pizza";
 			sourceTree = "<group>";
@@ -104,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				4546FD94251ADAB6003E3D0F /* MenuListView.swift */,
+				4546FD9E251ADDFF003E3D0F /* MenuRowView.swift */,
+				4546FDA2251ADE4F003E3D0F /* RatingsView.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				4546FD90251ADA59003E3D0F /* OrderListView.swift */,
+				4546FD9A251ADD22003E3D0F /* OrderRowView.swift */,
 			);
 			path = OrderView;
 			sourceTree = "<group>";
@@ -191,7 +200,10 @@
 				4546FD95251ADAB6003E3D0F /* MenuListView.swift in Sources */,
 				4546FD91251ADA59003E3D0F /* OrderListView.swift in Sources */,
 				4546FD98251ADBE4003E3D0F /* ContentHeaderView.swift in Sources */,
+				4546FDA3251ADE4F003E3D0F /* RatingsView.swift in Sources */,
+				4546FD9F251ADDFF003E3D0F /* MenuRowView.swift in Sources */,
 				451D3058250CA510000EDF16 /* SceneDelegate.swift in Sources */,
+				4546FD9B251ADD22003E3D0F /* OrderRowView.swift in Sources */,
 				451D305A250CA510000EDF16 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

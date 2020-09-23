@@ -1,5 +1,5 @@
 //
-//  MenuListView.swift
+//  RatingsView.swift
 //  Vic Pizza
 //
 //  Created by Sunimal Herath on 23/9/20.
@@ -8,19 +8,19 @@
 
 import SwiftUI
 
-struct MenuListView: View {
+struct RatingsView: View {
     var body: some View {
-        VStack {
-            Text("Menu")
-            MenuRowView()
+        HStack {
+            ForEach(0..<4) {item in
+                Image("Pizza Slice")
+            }
         }
     }
 }
 
-struct MenuListView_Previews: PreviewProvider {
+
+struct RatingsView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuListView()
+        RatingsView()
     }
 }
-
-
