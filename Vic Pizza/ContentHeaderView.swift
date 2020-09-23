@@ -15,8 +15,7 @@ struct ContentHeaderView: View {
                 .resizable()
                 .frame(width: 200.0, height: 200.0)
                 .scaledToFit()
-            Text("Order Pizza")
-                .font(.largeTitle)
+            
         }
     }
 }
@@ -26,3 +25,5 @@ struct ContentHeaderView_Previews: PreviewProvider {
         ContentHeaderView()
     }
 }
+
+
