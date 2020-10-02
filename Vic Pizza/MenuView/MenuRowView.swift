@@ -13,11 +13,13 @@ struct MenuRowView: View {
         List(0..<5) { item in
             HStack(alignment: .top, spacing: 15) {
                 Image("1_100w")
-                VStack {
+                VStack(alignment:.leading) {
                     Text("Vic Chicken Pizza")
+                        .font(.headline)
+                        .fontWeight(.light)
                     RatingsView()
                 }
-                Spacer()
+                //Spacer()
             }
         }
     }
