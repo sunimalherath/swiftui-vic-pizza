@@ -81,6 +81,7 @@
 				4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */,
 				451D3059250CA510000EDF16 /* ContentView.swift */,
 				4546FDA6251AE3AD003E3D0F /* PageTitleView.swift */,
+				45627AB12526FAD000D21E6C /* ListHeaderView.swift */,
 				4546FD8F251ADA35003E3D0F /* OrderView */,
 				4546FD8E251ADA20003E3D0F /* MenuView */,
 				4546FD8D251ADA17003E3D0F /* Model */,
@@ -91,7 +92,6 @@
 				451D3060250CA512000EDF16 /* LaunchScreen.storyboard */,
 				451D3063250CA512000EDF16 /* Info.plist */,
 				451D305D250CA512000EDF16 /* Preview Content */,
-				45627AB12526FAD000D21E6C /* ListHeaderView.swift */,
 			);
 			path = "Vic Pizza";
 			sourceTree = "<group>";
