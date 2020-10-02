@@ -11,7 +11,7 @@ import SwiftUI
 struct MenuListView: View {
     var body: some View {
         VStack {
-            Text("Menu")
+            ListHeaderView(text: "Menu")
             MenuRowView()
         }
     }
@@ -22,5 +22,3 @@ struct MenuListView_Previews: PreviewProvider {
         MenuListView()
     }
 }
-
-

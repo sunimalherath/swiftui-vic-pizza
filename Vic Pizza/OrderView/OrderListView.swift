@@ -11,7 +11,7 @@ import SwiftUI
 struct OrderListView: View {
     var body: some View {
         VStack {
-            Text("Your Order")
+            ListHeaderView(text: "Your Order")
             
             List(0..<5) { item in
                 OrderRowView()
