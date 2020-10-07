@@ -13,7 +13,7 @@ struct ContentHeaderView: View {
         VStack{
             Image("pizza-logo")
                 .resizable()
-                .frame(width: 200.0, height: 200.0)
+                .frame(width: 100.0, height: 100.0)
                 .scaledToFit()
             
         }
