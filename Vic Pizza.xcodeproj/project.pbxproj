@@ -24,6 +24,7 @@
 		4546FDAF251B0EE8003E3D0F /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FDAE251B0EE8003E3D0F /* HistoryRowView.swift */; };
 		4546FDB3251B1101003E3D0F /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FDB2251B1101003E3D0F /* HistoryListView.swift */; };
 		45627AB22526FAD000D21E6C /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45627AB12526FAD000D21E6C /* ListHeaderView.swift */; };
+		457A4A01252DB69F003DAE05 /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4A00252DB69F003DAE05 /* SelectedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		4546FDAE251B0EE8003E3D0F /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
 		4546FDB2251B1101003E3D0F /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
 		45627AB12526FAD000D21E6C /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		457A4A00252DB69F003DAE05 /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				4546FDAA251B0E1A003E3D0F /* HistoryView.swift */,
 				4546FDAE251B0EE8003E3D0F /* HistoryRowView.swift */,
 				4546FDB2251B1101003E3D0F /* HistoryListView.swift */,
+				457A4A00252DB69F003DAE05 /* SelectedImageView.swift */,
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				4546FDA7251AE3AD003E3D0F /* PageTitleView.swift in Sources */,
 				4546FD91251ADA59003E3D0F /* OrderListView.swift in Sources */,
 				4546FD98251ADBE4003E3D0F /* ContentHeaderView.swift in Sources */,
+				457A4A01252DB69F003DAE05 /* SelectedImageView.swift in Sources */,
 				45627AB22526FAD000D21E6C /* ListHeaderView.swift in Sources */,
 				4546FDAB251B0E1A003E3D0F /* HistoryView.swift in Sources */,
 				4546FDA3251ADE4F003E3D0F /* RatingsView.swift in Sources */,

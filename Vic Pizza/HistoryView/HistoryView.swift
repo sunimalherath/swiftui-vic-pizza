@@ -13,6 +13,7 @@ struct HistoryView: View {
         VStack{
             ContentHeaderView()
             PageTitleView(title: "Pizza History")
+            SelectedImageView(imageName: "1_250w")
             HistoryListView()
         }
     }
