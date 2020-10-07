@@ -13,7 +13,7 @@ struct MenuRowView: View {
         List(0..<5) { item in
             HStack(alignment: .top, spacing: 15) {
                 Image("1_100w")
-                VStack(alignment:.leading) {
+                VStack(alignment:.leading, spacing: 5) {
                     Text("Vic Chicken Pizza")
                         .font(.headline)
                         .fontWeight(.light)
