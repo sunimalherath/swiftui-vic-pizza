@@ -10,6 +10,7 @@ import SwiftUI
 
 struct PageTitleView: View {
     var title: String
+    var isDisplayingOrder: Bool! = nil
     var body: some View {
         HStack {
             Spacer()
@@ -19,8 +20,9 @@ struct PageTitleView: View {
         }
         .padding(.trailing)
         .overlay(
-            Image(systemName: "chevron.up.square")
+            Image(systemName: isDisplayingOrder ?? false ? "chevron.up.square" : "chevron.down.square")
                 .font(.title)
+                .foregroundColor(isDisplayingOrder != nil ? Color("G4") : .clear)
                 .padding(),
             alignment: .leading
         )
