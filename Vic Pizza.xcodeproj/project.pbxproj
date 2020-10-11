@@ -13,6 +13,9 @@
 		451D305C250CA512000EDF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451D305B250CA512000EDF16 /* Assets.xcassets */; };
 		451D305F250CA512000EDF16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451D305E250CA512000EDF16 /* Preview Assets.xcassets */; };
 		451D3062250CA512000EDF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451D3060250CA512000EDF16 /* LaunchScreen.storyboard */; };
+		452132392533049900714134 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452132362533049800714134 /* OrderModel.swift */; };
+		4521323A2533049900714134 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452132372533049900714134 /* HistoryModel.swift */; };
+		4521323B2533049900714134 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452132382533049900714134 /* MenuModel.swift */; };
 		4546FD91251ADA59003E3D0F /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD90251ADA59003E3D0F /* OrderListView.swift */; };
 		4546FD95251ADAB6003E3D0F /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD94251ADAB6003E3D0F /* MenuListView.swift */; };
 		4546FD98251ADBE4003E3D0F /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */; };
@@ -36,6 +39,9 @@
 		451D305E250CA512000EDF16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		451D3061250CA512000EDF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451D3063250CA512000EDF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452132362533049800714134 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		452132372533049900714134 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		452132382533049900714134 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		4546FD90251ADA59003E3D0F /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		4546FD94251ADAB6003E3D0F /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		4546FD97251ADBE4003E3D0F /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
@@ -120,6 +126,9 @@
 		4546FD8D251ADA17003E3D0F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				452132372533049900714134 /* HistoryModel.swift */,
+				452132382533049900714134 /* MenuModel.swift */,
+				452132362533049800714134 /* OrderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,15 +225,18 @@
 			files = (
 				4546FDAF251B0EE8003E3D0F /* HistoryRowView.swift in Sources */,
 				451D3056250CA510000EDF16 /* AppDelegate.swift in Sources */,
+				4521323B2533049900714134 /* MenuModel.swift in Sources */,
 				4546FDB3251B1101003E3D0F /* HistoryListView.swift in Sources */,
 				4546FD95251ADAB6003E3D0F /* MenuListView.swift in Sources */,
 				4546FDA7251AE3AD003E3D0F /* PageTitleView.swift in Sources */,
 				4546FD91251ADA59003E3D0F /* OrderListView.swift in Sources */,
 				4546FD98251ADBE4003E3D0F /* ContentHeaderView.swift in Sources */,
 				457A4A01252DB69F003DAE05 /* SelectedImageView.swift in Sources */,
+				452132392533049900714134 /* OrderModel.swift in Sources */,
 				45627AB22526FAD000D21E6C /* ListHeaderView.swift in Sources */,
 				4546FDAB251B0E1A003E3D0F /* HistoryView.swift in Sources */,
 				4546FDA3251ADE4F003E3D0F /* RatingsView.swift in Sources */,
+				4521323A2533049900714134 /* HistoryModel.swift in Sources */,
 				4546FD9F251ADDFF003E3D0F /* MenuRowView.swift in Sources */,
 				451D3058250CA510000EDF16 /* SceneDelegate.swift in Sources */,
 				4546FD9B251ADD22003E3D0F /* OrderRowView.swift in Sources */,
