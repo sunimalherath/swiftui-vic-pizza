@@ -9,8 +9,9 @@
 import SwiftUI
 
 struct MenuRowView: View {
+    var menuList = MenuModel().menu
     var body: some View {
-        List(0..<5) { item in
+        List(menuList) { item in
             HStack(alignment: .top, spacing: 15) {
                 Image("1_100w")
                     .cornerRadius(10)
@@ -18,10 +19,10 @@ struct MenuRowView: View {
                     .clipShape(Capsule())
                     .shadow(color: Color.black.opacity(0.5), radius: 5, x: 0, y: 0)
                 VStack(alignment:.leading, spacing: 5) {
-                    Text("Vic Chicken Pizza")
+                    Text(item.name)
                         .font(.headline)
                         .fontWeight(.light)
-                    RatingsView()
+                    RatingsView(count: item.rating)
                 }
                 //Spacer()
             }
