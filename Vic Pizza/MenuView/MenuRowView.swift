@@ -9,23 +9,24 @@
 import SwiftUI
 
 struct MenuRowView: View {
-    var menuList = MenuModel().menu
+    var menuItem: MenuItem = testMenuItem
     var body: some View {
-        List(menuList) { item in
+        VStack(alignment: .leading){
             HStack(alignment: .top, spacing: 15) {
-                Image("1_100w")
+                Image("\(menuItem.id)_100w")
                     .cornerRadius(10)
                     //.border(Color("G4"),width: 2)
                     .clipShape(Capsule())
                     .shadow(color: Color.black.opacity(0.5), radius: 5, x: 0, y: 0)
                 VStack(alignment:.leading, spacing: 5) {
-                    Text(item.name)
+                    Text(menuItem.name)
                         .font(.headline)
                         .fontWeight(.light)
-                    RatingsView(count: item.rating)
+                    RatingsView(count: menuItem.rating)
                 }
                 //Spacer()
             }
+            Text(menuItem.description)
         }
     }
 }
