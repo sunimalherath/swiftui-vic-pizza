@@ -9,17 +9,18 @@
 import SwiftUI
 
 struct OrderRowView: View {
+    var orderItem: OrderItem
     var body: some View {
         HStack{
-            Text("Your order item here")
+            Text(orderItem.description)
             Spacer()
-            Text("$ 00.00")
+            Text(orderItem.formattedExtendedPrice)
         }
     }
 }
 
 struct OrderRowView_Previews: PreviewProvider {
     static var previews: some View {
-        OrderRowView()
+        OrderRowView(orderItem: testOrderItem)
     }
 }
