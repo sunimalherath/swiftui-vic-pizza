@@ -9,7 +9,7 @@
 import SwiftUI
 ///A `View`for entering in an order. Takes basic information about the order from `menuItem`
 struct MenuDetailView: View {
-    @Binding var orderModel: OrderModel
+    @ObservedObject var orderModel: OrderModel
     var menuItem: MenuItem
     var formattedPrice:String{
         String(format:"%3.2f",menuItem.price)
@@ -75,6 +75,6 @@ struct MenuDetailView: View {
 
 struct MenuDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuDetailView(orderModel: .constant(OrderModel()), menuItem: testMenuItem)
+        MenuDetailView(orderModel: OrderModel(), menuItem: testMenuItem)
     }
 }
