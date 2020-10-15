@@ -11,6 +11,7 @@ import SwiftUI
 struct MenuDetailView: View {
     @EnvironmentObject var settings: UserPreferences
     @ObservedObject var orderModel: OrderModel
+    @State var didOrder: Bool = false
     var menuItem: MenuItem
     var formattedPrice:String{
         String(format:"%3.2f",menuItem.price)
@@ -18,6 +19,7 @@ struct MenuDetailView: View {
     
     func addItem(){
         orderModel.add(menuID: menuItem.id)
+        didOrder = true
     }
     
     var body: some View {
@@ -65,6 +67,9 @@ struct MenuDetailView: View {
                         .foregroundColor(Color("IP"))
                         .cornerRadius(5)
                 }
+                .alert(isPresented: $didOrder, content: {
+                    Alert(title: Text("Pizza Ordered"), message: Text("You ordered \(self.menuItem.name)"))
+                })
                 Spacer()
             }
             .padding(.top)
