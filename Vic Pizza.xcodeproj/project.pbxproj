@@ -30,6 +30,7 @@
 		457A4A01252DB69F003DAE05 /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4A00252DB69F003DAE05 /* SelectedImageView.swift */; };
 		458B49A92535A07E00B5FC01 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B49A82535A07E00B5FC01 /* MenuDetailView.swift */; };
 		45BA38612538246D002C4031 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA38602538246D002C4031 /* HistoryDetailView.swift */; };
+		45BA386425382B15002C4031 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA386325382B15002C4031 /* RootTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		457A4A00252DB69F003DAE05 /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
 		458B49A82535A07E00B5FC01 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
 		45BA38602538246D002C4031 /* HistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
+		45BA386325382B15002C4031 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				451D3060250CA512000EDF16 /* LaunchScreen.storyboard */,
 				451D3063250CA512000EDF16 /* Info.plist */,
 				451D305D250CA512000EDF16 /* Preview Content */,
+				45BA386325382B15002C4031 /* RootTabView.swift */,
 			);
 			path = "Vic Pizza";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				4521323B2533049900714134 /* MenuModel.swift in Sources */,
 				4546FDB3251B1101003E3D0F /* HistoryListView.swift in Sources */,
 				4546FD95251ADAB6003E3D0F /* MenuListView.swift in Sources */,
+				45BA386425382B15002C4031 /* RootTabView.swift in Sources */,
 				4546FDA7251AE3AD003E3D0F /* PageTitleView.swift in Sources */,
 				4546FD91251ADA59003E3D0F /* OrderListView.swift in Sources */,
 				4546FD98251ADBE4003E3D0F /* ContentHeaderView.swift in Sources */,
