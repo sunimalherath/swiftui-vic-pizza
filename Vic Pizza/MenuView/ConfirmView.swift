@@ -1,0 +1,57 @@
+//
+//  ConfirmView.swift
+//  HuliPizza
+//
+//  Created by Sunimal Herath on 15/10/20.
+//  Copyright © 2020 Sunimal Herath. All rights reserved.
+//
+
+import SwiftUI
+
+struct ConfirmView: View {
+    var menuID:Int
+    @Binding var isPresented: Bool
+    @ObservedObject var orderModel: OrderModel
+    
+    ///extracts the menu item name based on `menuID`
+    var name: String {
+        orderModel.menu(menuID)?.name ?? ""
+    }
+    
+    func addItem() {
+        orderModel.add(menuID: menuID)
+        isPresented = false
+    }
+    
+    var body: some View {
+        VStack{
+            Text("Confirm Order")
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+                .padding(.leading)
+            Divider()
+            SelectedImageView(imageName: "\(menuID)_250w")
+                .padding(10)
+            Divider()
+            Text("Confirm your order of \(name) pizza")
+                .font(.headline)
+            Spacer()
+            Button(action: addItem){
+                Text("Add")
+                    .font(.title)
+                .padding()
+                .background(Color("G4"))
+                .cornerRadius(10)
+            }.padding([.bottom])
+        }
+        .background(Color("G3"))
+        .foregroundColor(Color("IP"))
+        .cornerRadius(20)
+    }
+}
+
+struct ConfirmView_Previews: PreviewProvider {
+    static var previews: some View {
+        ConfirmView(menuID: 0, isPresented: .constant(true), orderModel: OrderModel())
+    }
+}

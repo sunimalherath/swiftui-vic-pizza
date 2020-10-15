@@ -31,6 +31,7 @@
 		458B49A92535A07E00B5FC01 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B49A82535A07E00B5FC01 /* MenuDetailView.swift */; };
 		45BA38612538246D002C4031 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA38602538246D002C4031 /* HistoryDetailView.swift */; };
 		45BA386425382B15002C4031 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA386325382B15002C4031 /* RootTabView.swift */; };
+		45BA38672538436D002C4031 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA38662538436D002C4031 /* ConfirmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		458B49A82535A07E00B5FC01 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
 		45BA38602538246D002C4031 /* HistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
 		45BA386325382B15002C4031 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		45BA38662538436D002C4031 /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				4546FD9E251ADDFF003E3D0F /* MenuRowView.swift */,
 				4546FDA2251ADE4F003E3D0F /* RatingsView.swift */,
 				458B49A82535A07E00B5FC01 /* MenuDetailView.swift */,
+				45BA38662538436D002C4031 /* ConfirmView.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				4521323A2533049900714134 /* HistoryModel.swift in Sources */,
 				4546FD9F251ADDFF003E3D0F /* MenuRowView.swift in Sources */,
 				451D3058250CA510000EDF16 /* SceneDelegate.swift in Sources */,
+				45BA38672538436D002C4031 /* ConfirmView.swift in Sources */,
 				4546FD9B251ADD22003E3D0F /* OrderRowView.swift in Sources */,
 				451D305A250CA510000EDF16 /* ContentView.swift in Sources */,
 			);
