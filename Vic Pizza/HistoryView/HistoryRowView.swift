@@ -9,13 +9,14 @@
 import SwiftUI
 
 struct HistoryRowView: View {
+    var historyItem: HistoryItem
     var body: some View {
         HStack(alignment: .top, spacing: 15){
-            Image("1_100w")
+            Image("\(historyItem.id)_100w")
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                 .shadow(color: Color.black.opacity(0.5), radius: 5, x: 0, y: 0)
             VStack{
-                Text("VIC Chicken")
+                Text(historyItem.name)
                     .font(.title)
             }
             Spacer()
@@ -31,6 +32,6 @@ struct HistoryRowView: View {
 
 struct HistoryRowView_Previews: PreviewProvider {
     static var previews: some View {
-        HistoryRowView()
+        HistoryRowView(historyItem: HistoryModel().historyItems[0])
     }
 }

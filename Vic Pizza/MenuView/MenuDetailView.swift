@@ -9,6 +9,7 @@
 import SwiftUI
 ///A `View`for entering in an order. Takes basic information about the order from `menuItem`
 struct MenuDetailView: View {
+    @EnvironmentObject var settings: UserPreferences
     @ObservedObject var orderModel: OrderModel
     var menuItem: MenuItem
     var formattedPrice:String{
@@ -35,7 +36,7 @@ struct MenuDetailView: View {
             HStack{
                 Spacer()
                 Text("Pizza size")
-                Text("Small")
+                Text(settings.size.formatted())
             }
             .font(.headline)
             HStack{

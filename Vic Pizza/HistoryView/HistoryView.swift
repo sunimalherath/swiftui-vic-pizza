@@ -9,12 +9,14 @@
 import SwiftUI
 
 struct HistoryView: View {
+    @State var imageID: Int = 1
     var body: some View {
         VStack{
-            ContentHeaderView()
+            //ContentHeaderView()
             PageTitleView(title: "Pizza History")
-            SelectedImageView(imageName: "1_250w")
-            HistoryListView()
+            SelectedImageView(imageName: "\(imageID)_250w")
+            HistoryListView(imageID: $imageID)
+            Spacer()
         }
     }
 }

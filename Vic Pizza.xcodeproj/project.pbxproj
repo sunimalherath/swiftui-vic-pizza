@@ -29,6 +29,7 @@
 		45627AB22526FAD000D21E6C /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45627AB12526FAD000D21E6C /* ListHeaderView.swift */; };
 		457A4A01252DB69F003DAE05 /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4A00252DB69F003DAE05 /* SelectedImageView.swift */; };
 		458B49A92535A07E00B5FC01 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B49A82535A07E00B5FC01 /* MenuDetailView.swift */; };
+		45BA38612538246D002C4031 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA38602538246D002C4031 /* HistoryDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		45627AB12526FAD000D21E6C /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 		457A4A00252DB69F003DAE05 /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
 		458B49A82535A07E00B5FC01 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		45BA38602538246D002C4031 /* HistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				4546FDAE251B0EE8003E3D0F /* HistoryRowView.swift */,
 				4546FDB2251B1101003E3D0F /* HistoryListView.swift */,
 				457A4A00252DB69F003DAE05 /* SelectedImageView.swift */,
+				45BA38602538246D002C4031 /* HistoryDetailView.swift */,
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				4546FDAF251B0EE8003E3D0F /* HistoryRowView.swift in Sources */,
 				451D3056250CA510000EDF16 /* AppDelegate.swift in Sources */,
+				45BA38612538246D002C4031 /* HistoryDetailView.swift in Sources */,
 				458B49A92535A07E00B5FC01 /* MenuDetailView.swift in Sources */,
 				4521323B2533049900714134 /* MenuModel.swift in Sources */,
 				4546FDB3251B1101003E3D0F /* HistoryListView.swift in Sources */,
