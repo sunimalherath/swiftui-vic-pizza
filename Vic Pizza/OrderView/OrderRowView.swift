@@ -11,10 +11,15 @@ import SwiftUI
 struct OrderRowView: View {
     var orderItem: OrderItem
     var body: some View {
-        HStack{
-            Text(orderItem.description)
-            Spacer()
-            Text(orderItem.formattedExtendedPrice)
+        VStack {
+            HStack{
+                Image(systemName: "\(orderItem.id).square")
+                Text(orderItem.description)
+                Spacer()
+                Text(orderItem.formattedExtendedPrice)
+                    .bold()
+            }
+            Text(orderItem.comments)
         }
     }
 }
