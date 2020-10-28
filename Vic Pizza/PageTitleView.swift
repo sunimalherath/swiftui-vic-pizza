@@ -20,7 +20,9 @@ struct PageTitleView: View {
         }
         .padding(.trailing)
         .overlay(
-            Image(systemName: isDisplayingOrder ?? false ? "chevron.up.square" : "chevron.down.square")
+            Image(systemName: "chevron.up.square")
+                .rotationEffect(isDisplayingOrder ?? false ? Angle(degrees: 0.0) : Angle(degrees: 180.0))
+                .animation(.easeInOut(duration: 0.5))
                 .font(.title)
                 .foregroundColor(isDisplayingOrder != nil ? Color("G4") : .clear)
                 .padding(),
