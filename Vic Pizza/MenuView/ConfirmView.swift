@@ -49,14 +49,26 @@ struct ConfirmView: View {
                 .font(.headline)
             TextField("Add your comments here", text: $comments)
                 .background(Color("G4"))
+            SizePickerView(size: $size)
+            QuantityStepperView(quantity: $quantity)
             Spacer()
-            Button(action: addItem){
-                Text("Add")
-                    .font(.title)
-                .padding()
-                .background(Color("G4"))
-                .cornerRadius(10)
-            }.padding([.bottom])
+            HStack {
+                Button(action: addItem){
+                    Text("Add")
+                        .font(.title)
+                    .padding()
+                    .background(Color("G4"))
+                    .cornerRadius(10)
+                }.padding([.bottom])
+                Spacer()
+                Button(action: { self.isPresented = false}){
+                    Text("Cancel")
+                        .font(.title)
+                    .padding()
+                    .background(Color("G4"))
+                    .cornerRadius(10)
+                }.padding([.bottom])
+            }
         }
         .background(Color("G3"))
         .foregroundColor(Color("IP"))
